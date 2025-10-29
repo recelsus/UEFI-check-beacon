@@ -5,6 +5,8 @@ Pure-asm (NASM, x86_64) UEFI app that:
 - If UDP4 is present, sends a 1-shot JSON beacon via UDP4 using UseDefaultAddress (DHCP)
 - Otherwise, no-op and return success
 
+- Receiving server not implemented.
+
 ## Build
 Arch Linux:
 ```bash
